@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
 //        이미지뷰 / 텍스트뷰 / LinearLayout 등은 버튼처럼
         imgProfile.setOnClickListener() {
 
-            val myIntent = Intent(this, ViewPhtoActivity)
+            val myIntent = Intent(this, ViewPhotoActivity::class.java)
             startActivity(myIntent)
         }
 

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LivraryPractice_20211105">
         <activity
-            android:name=".ViewActivity"
+            android:name=".ViewPhotoActivity"
             android:theme="@style/Theme.AppCompat.DayNight.NoActionBar"
             android:exported="true" />
         <activity
